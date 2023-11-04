@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pizzeria Delta</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <main>
+      <div class="banner">
+        <p class="name">Pizzeria Delta</p>  
+        <img src="./logo.png" class="logo">
+      </div>
+      <div class="leftPanel panel"></div>
+      <div class="content">
+        <h3>U nas zamówisz pizze z dostawą</h3>
+        <p>Pizzeria Delta</p>
+        
+        <h3>Nasza oferta</h3>
+          <ul class="menu">
+            <li>Pizza</li>
+            <li>Lasagne</li>
+            <li>Salatki</li>
+          </ul>
+        <h3>Oblicz koszt dostawy</h3>
+        
+        <form class="delivery">
+          <input type="checkbox" name="deliveryCity" id="deliveryCity">
+          <label for="deliveryCity"> Dostawa do Poznania</label>
+          <h4>lub</h4>
+          <p>Podaj liczbe kilometrów do Poznania:</p>
+          <input type="text" name="deliveryCityDistance" id="deliveryCityDistance">
+          <input type="button" onclick="calculate()" value="Oblicz">
+        </form>
+
+        <h3 id="displayDeliveryPrice">Cena za dostawe to:</h3>
+    
+        <img src="./pizza.png" class="pizzaPng">
+      </div>
+      <div class="rightPanel panel"></div>
+      <div class="footer">
+        <p class="footerText">Strone internetową opracował: 130546</p>
+      </div>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>

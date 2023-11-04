@@ -1,0 +1,76 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.banner { 
+	background-color: #4E885C;
+	color:orange;
+	text-align: center;
+	height: 15vh;
+}
+
+.logo {
+	height: 14vh;
+	display: inline;
+	float: right;
+	padding: 3px;
+}
+
+.name {
+	font-size: 4vh;
+	font-weight: 500;
+	display: inline;
+	float: left;
+	margin-left: 10px;
+}
+
+.panel {
+	background-color: #72A37D;
+	width: 20%;
+	height: 75vh;
+}
+
+.leftPanel {
+	float: left;
+}
+
+.rightPanel {
+	float: right;
+}
+
+.content {
+	background-color: #A2C3A9;
+	width: 60%;
+	height: 75vh;
+	float: left;
+	text-align: center;
+}
+
+.menu {
+	text-align: center;
+	display: inline-block;
+	width: 100px;
+	list-style-type: decimal;
+}
+
+.pizzaPng {
+	height: 40vh;
+	width: 40vw;
+}
+
+.footer {
+	background-color:#4E885C;
+	color:orange;
+	height: 10vh;
+	width:100%;
+	float:left;
+}
+
+.footerText {
+	margin-left: 10px;
+}
+
+.hidden {
+	display: none;
+}
